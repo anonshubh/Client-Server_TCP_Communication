@@ -7,7 +7,6 @@ Built by - Shubh Pathak (MSM19B018)
 """
 import socket,time,random
 
-HEADER = 64
 PORT = 10001
 
 SERVER = socket.gethostbyname(socket.gethostname()) # Automatically gets the Local IP Address
