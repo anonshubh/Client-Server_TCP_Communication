@@ -32,7 +32,7 @@ if __name__ == '__main__':
             send(message)
             time.sleep(1)
     except:
-        print("Stopped Sending requests to Server...")
+        print("\nStopped Sending requests to Server...")
     finally:
         client.close()
 
